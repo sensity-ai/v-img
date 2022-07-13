@@ -158,9 +158,6 @@ export default {
       // arrow left and 'h' key (vim-like binding)
       if (e.keyCode === 37 || e.keyCode === 72) this.prev();
     });
-    window.addEventListener('scroll', () => {
-      this.close();
-    });
     window.addEventListener('mousemove', () => {
       this.showUI();
     });
